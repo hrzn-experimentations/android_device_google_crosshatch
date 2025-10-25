@@ -27,3 +27,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=blueline
 
 $(call inherit-product, vendor/google/blueline/blueline-vendor.mk)
+
+TARGET_INCLUDE_JAMESDSP := true
