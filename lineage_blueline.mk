@@ -28,4 +28,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 $(call inherit-product, vendor/google/blueline/blueline-vendor.mk)
 
+# MatrixxDelta
+WITH_MICROG := true
 TARGET_INCLUDE_JAMESDSP := true
