@@ -31,3 +31,4 @@ $(call inherit-product, vendor/google/blueline/blueline-vendor.mk)
 # MatrixxDelta
 WITH_MICROG := true
 TARGET_INCLUDE_JAMESDSP := true
+TARGET_FACE_UNLOCK_SUPPORTED := false
