@@ -28,7 +28,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 $(call inherit-product, vendor/google/blueline/blueline-vendor.mk)
 
-# MatrixxDelta
+# Build Flags
+WITH_GMS := false
 WITH_MICROG := true
 TARGET_INCLUDE_JAMESDSP := true
 TARGET_FACE_UNLOCK_SUPPORTED := false
